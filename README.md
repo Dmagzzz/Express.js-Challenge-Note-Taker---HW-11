@@ -33,7 +33,9 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 * Run the app
 
 ## Screenshots
+<img width="954" alt="1" src="https://user-images.githubusercontent.com/113950240/221053593-52fe741c-403f-407c-9b0c-8024778bf602.PNG">
 
+<img width="926" alt="2" src="https://user-images.githubusercontent.com/113950240/221053599-cbc1c832-0dbe-484f-a1d7-669125204fbb.PNG">
 
 
 
