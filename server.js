@@ -4,7 +4,7 @@ const app = express()
 
 const path = require("path")
 
-const uuidv1 = require("uuid/v1")
+const { v4: uuidv4 } = require('uuid');
 
 const fs = require("fs")
 
@@ -32,7 +32,7 @@ app.get("/api/notes", (req, res) => {
 })
 
 app.post("/api/notes", (req, res) => {
-    const note = {id: uuidv1(), ...req.body}
+    const note = {id: uuidv4(), ...req.body}
     readFileAsync("db/db.json", "utf-8")
     .then(notes => {
         const newNotes = JSON.parse(notes)
